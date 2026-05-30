@@ -1,0 +1,6 @@
+export const site = {
+  name: "PLS — Plateforme de Liaisons Situationnelles",
+  shortDescription: "Compagnie de creation theatrale contemporaine. Premiere creation: Gilberte.",
+  email: "contact@plateforme-liaisons.fr",
+  diffusionEmail: "diffusion@plateforme-liaisons.fr",
+};

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- BASE_URL est laissé vide tant qu'un domaine n'est pas configuré. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>/</loc></url>
+  <url><loc>/compagnie</loc></url>
+  <url><loc>/gilberte</loc></url>
+  <url><loc>/equipe</loc></url>
+  <url><loc>/actualites</loc></url>
+  <url><loc>/partenariats</loc></url>
+  <url><loc>/contact</loc></url>
+</urlset>
