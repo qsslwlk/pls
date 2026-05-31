@@ -51,8 +51,7 @@ function Home() {
               Plateforme de Liaisons Situationnelles
             </h1>
             <p className="mt-8 max-w-xl text-base md:text-lg text-foreground/80 leading-relaxed">
-              Compagnie de création théâtrale contemporaine. Spectacles qui interrogent les
-              transformations du travail, du langage, de la technologie et du pouvoir.
+              Compagnie de création théâtrale contemporaine.
             </p>
           </Container>
         </div>
@@ -75,9 +74,9 @@ function Home() {
 
           <div className="md:col-span-7">
             <p className="font-display text-2xl md:text-3xl leading-[1.25] tracking-tight">
-              Une intelligence artificielle conçue pour écrire le programme électoral parfait
-              propulse une ministre médiocre à la présidence de la République. Lorsqu'elle commence
-              à gouverner à sa place, le pays bascule progressivement dans l'absurde.
+            Dans une start-up spécialisée en intelligence artificielle, un employé qui n’aurait jamais dû être embauché entraîne par erreur un modèle destiné à écrire le programme électoral d’une ministre en campagne.
+            La ministre est élue. L’IA, Gilberte, entre à l’Élysée. Elle rédige des lois, prépare des discours, conseille le pouvoir, produit des récits et finit par gouverner à la place de ceux qui préfèrent ne plus avoir à penser.
+            Farce politique sur l’intelligence artificielle, la technocratie et la lâcheté ordinaire, <b>Gilberte</b> raconte l’effondrement d’une République moins vaincue par la machine que par son propre désir de ne plus décider.
             </p>
 
             <div className="mt-10 rule-t pt-6 flex items-start justify-between gap-6 flex-wrap">
