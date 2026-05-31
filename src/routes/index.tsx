@@ -76,7 +76,7 @@ function Home() {
             <p className="font-display text-2xl md:text-3xl leading-[1.25] tracking-tight">
             Dans une start-up spécialisée en intelligence artificielle, un employé qui n’aurait jamais dû être embauché entraîne par erreur un modèle destiné à écrire le programme électoral d’une ministre en campagne.<br /><br />
             La ministre est élue. L’IA, Gilberte, entre à l’Élysée. Elle rédige des lois, prépare des discours, conseille le pouvoir, produit des récits et finit par gouverner à la place de ceux qui préfèrent ne plus avoir à penser.<br /><br />            
-            Farce politique sur l’intelligence artificielle, la technocratie et la lâcheté ordinaire, Gilberte raconte l’effondrement d’une République moins vaincue par la machine que par son propre désir de ne plus décider.<br />
+            Farce politique sur l’intelligence artificielle, la technocratie et la lâcheté ordinaire, Gilberte raconte l’effondrement d’une République moins vaincue par la machine que par son propre désir de ne plus décider de rien.<br />
             </p>
 
             <div className="mt-10 rule-t pt-6 flex items-start justify-between gap-6 flex-wrap">
@@ -113,12 +113,13 @@ function Home() {
           <div className="md:col-span-5">
             <p className="label-admin text-muted-foreground">Univers · 02</p>
             <h2 className="mt-6 font-display text-4xl md:text-5xl leading-[1.05] tracking-tight">
-              Un monde très proche du nôtre qui a légèrement déraillé.
+            Un monde trop proche du nôtre pour être inventé
             </h2>
             <p className="mt-8 text-base md:text-lg text-foreground/80 leading-relaxed max-w-md">
-              Bureaux désaffectés, salles de réunion vides, mobilier administratif, lumière froide,
-              technologies omniprésentes mais discrètes. L'esthétique de PLS travaille la zone où
-              l'institution devient scénographie.
+            Team building new age, mobilier administratif, lumière froide, pouvoir hors-sol 
+            et technologies omniprésentes. Gilberte se situe dans cette zone trouble 
+            où l’on ne sait plus si l’on regarde une farce politique, 
+            une dystopie de bureau ou une journée ordinaire au pays des start-ups.
             </p>
           </div>
           <div className="md:col-span-7">
