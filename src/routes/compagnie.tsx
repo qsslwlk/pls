@@ -26,9 +26,9 @@ function CompagniePage() {
       <PageHeader
         eyebrow="Dossier · La compagnie"
         title="Une plateforme pour des liaisons situationnelles"
-        intro="PLS construit des situations scéniques pour révéler le spectacle ordinaire de la vie contemporaine.
-        La Compagnie travaille à partir des formes mêmes du quotidien afin d’en faire apparaître la dimension fictionnelle et coercitive.
-        Ses créations placent le spectateur face aux rôles qu’il connaît déjà, ceux qu’il joue au travail, dans l’espace public ou devant les images.
+        intro="
+        La Compagnie s'engage à travailler à partir des formes mêmes du quotidien (réunions, formations, écrans, procédures) afin d’en faire apparaître la dimension fictionnelle, ritualisée et coercitive.
+        Ses créations placent le sujet face aux situations qu’il connaît déjà : celles qu’il traverse, celles qu’il rejoue, celles auxquelles il consent au travail, dans l’espace public, devant les images ou au sein des dispositifs qui organisent sa vie.
         "
       />
 
@@ -36,27 +36,10 @@ function CompagniePage() {
         <SectionHeading number="01" label="Mission" title="Faire théâtre du présent.">
           <p>
             Génération de situations scéniques contemporaines à partir d'enquêtes du vécu
-            contemporains, de recherches documentaires ethnographiques. Une attention particulière aux formes 
+            contemporains et de recherches documentaires ethnographiques. Une attention particulière sera portée aux formes 
             de langage et d'organisation du travail structurant le vécu contemporain.
           </p>
         </SectionHeading>
-
-        <!--
-        <SectionHeading
-          number="02"
-          label="Positionnement"
-          title="À la croisée de plusieurs gestes."
-        >
-          <ul className="grid md:grid-cols-2 gap-x-10 gap-y-3 text-base md:text-lg">
-            <li>· Satire politique</li>
-            <li>· Comédie sociale</li>
-            <li>· Théâtre contemporain</li>
-            <li>· Critique du solutionnisme technologique</li>
-            <li>· Absurde administratif</li>
-            <li>· Réflexion sur l'intelligence artificielle</li>
-          </ul>
-        </SectionHeading>
-        -->
 
         <SectionHeading
           number="02"
