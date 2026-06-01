@@ -40,7 +40,7 @@ const blocks = [
     n: "03",
     label: "Accueil en résidence",
     title: "Mettre un plateau à disposition.",
-    body: "PLS recherche des temps de résidence pour finaliser le texte, travailler la scénographie, éprouver la présence d’une intelligence artificielle en scène et construire les interactions avec les comédiens et le public. Un temps de plateau permettrait de tester concrètement ce qui fait la singularité du projet : le passage d’un monde de bureaux, de procédures et d’écrans vers un espace théâtral où ces formes deviennent visibles, jouables, transformables.",
+    body: "PLS recherche des temps de résidence pour finaliser le texte, travailler la scénographie, éprouver la présence d’une intelligence artificielle en scène et construire les interactions avec les comédiens et le public.",
   },
 ];
 
