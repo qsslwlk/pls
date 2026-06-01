@@ -56,7 +56,7 @@ function CompagniePage() {
           <SectionHeading number="04" label="Protocole" title="Protocole">
             <ul className="rule-t">
               {[
-                ["Situation", "Construction active de situations de réhabilitation du sujet contemporain."],
+                ["Situation", "Construire des situations de réappropriation active du quotidien contemporain."],
                 ["Enquête", "Observer les règles du jeu du spectacle contemporain."],
                 [
                   "Rejeu",
@@ -74,8 +74,7 @@ function CompagniePage() {
 
           <SectionHeading number="05" label="Statut" title="Statut & inscription.">
             <p className="text-muted-foreground">
-              Association loi 1901. Siège — TODO. N° SIRET — TODO. Licence d'entrepreneur du
-              spectacle — TODO.
+              Association loi 1901. Siège — Paris. N° SIRET — 992 816 231 00011.
             </p>
           </SectionHeading>
         </Container>
