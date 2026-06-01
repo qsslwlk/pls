@@ -37,7 +37,7 @@ function CompagniePage() {
         <SectionHeading number="01" label="Mission" title="Faire théâtre du présent">
           <p>
             Génération de situations scéniques contemporaines à partir d'enquêtes du vécu
-            contemporains et de recherches documentaires ethnographiques.
+            contemporain et de recherches documentaires ethnographiques.
           </p>
         </SectionHeading>
 
@@ -50,6 +50,7 @@ function CompagniePage() {
           PLS observe les lieux où le pouvoir ne se donne presque jamais comme pouvoir : une réunion, une formation, une procédure, un écran, un tableau de bord.
           Ces formes organisent les gestes, distribuent la parole, prescrivent les rôles. Elles font décor, mais un décor qui agit : il cadre les décisions, autorise les renoncements, transforme l’obéissance en participation.
           La scène permet d’en rejouer la logique jusqu’au point où l’institution cesse d’être naturelle pour redevenir une fiction.
+          </ br >
           </p>
         </SectionHeading>
 
