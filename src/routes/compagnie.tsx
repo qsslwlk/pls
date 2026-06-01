@@ -28,7 +28,8 @@ function CompagniePage() {
         title="Une plateforme pour des liaisons situationnelles"
         intro="
         La Compagnie s'engage à travailler à partir des formes mêmes du quotidien (réunions, formations, écrans, procédures) afin d’en faire apparaître la dimension fictionnelle, ritualisée et coercitive.
-        <br />Ses créations placent le sujet face aux situations qu’il connaît déjà : celles qu’il traverse, celles qu’il rejoue, celles auxquelles il consent au travail, dans l’espace public, devant les images ou au sein des dispositifs qui organisent sa vie.
+        
+        Ses créations placent le sujet face aux situations qu’il connaît déjà : celles qu’il traverse, celles qu’il rejoue, celles auxquelles il consent au travail, dans l’espace public, devant les images ou au sein des dispositifs qui organisent sa vie.
         "
       />
 
