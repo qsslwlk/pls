@@ -10,25 +10,73 @@ import { site } from "@/content/site";
 export const Route = createFileRoute("/gilberte")({
   head: () => ({
     meta: [
-      { title: "Gilberte — Une pièce d'Évariste Lorrain · PLS" },
+      {
+        title:
+          "Gilberte — pièce de théâtre satirique sur l’IA, le pouvoir et la servitude volontaire · PLS",
+      },
       {
         name: "description",
         content:
-          "Gilberte, comédie satirique contemporaine d'Évariste Lorrain. Une intelligence artificielle gouverne à la place d'une présidente dépassée. Production PLS, en pré-production 2026.",
+          "Gilberte est une pièce de théâtre contemporaine d’Évariste Lorrain, portée par PLS. Comédie satirique sur l’intelligence artificielle, le pouvoir politique, le management, l’absurde administratif et la servitude volontaire. Projet en pré-production pour une création scénique en 2026.",
       },
-      { property: "og:title", content: "Gilberte — PLS" },
+
+      // Open Graph
+      {
+        property: "og:title",
+        content:
+          "Gilberte — pièce satirique d’Évariste Lorrain sur l’IA et le pouvoir",
+      },
       {
         property: "og:description",
         content:
-          "Comédie satirique sur l'intelligence artificielle, le pouvoir et l'absurde administratif.",
+          "Une comédie politique contemporaine où une intelligence artificielle, entraînée par erreur, gouverne à la place d’une présidente dépassée. Une création PLS sur l’IA, la bureaucratie, le spectacle et la servitude volontaire.",
       },
-      { property: "og:type", content: "article" },
-      { property: "og:url", content: "/gilberte" },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "https://plateforme-liaisons.fr/gilberte" },
+      {
+        property: "og:site_name",
+        content: "PLS — Plateforme de Liaisons Situationnelles",
+      },
+      {
+        property: "og:locale",
+        content: "fr_FR",
+      },
+
+      // Twitter / X cards
+      { name: "twitter:card", content: "summary_large_image" },
+      {
+        name: "twitter:title",
+        content:
+          "Gilberte — pièce satirique sur l’intelligence artificielle et le pouvoir",
+      },
+      {
+        name: "twitter:description",
+        content:
+          "Comédie contemporaine d’Évariste Lorrain, portée par PLS, sur l’IA, la politique, le management et l’absurde administratif.",
+      },
+
+      // Entity clarification
+      {
+        name: "author",
+        content: "Évariste Lorrain",
+      },
+      {
+        name: "keywords",
+        content:
+          "Gilberte, Évariste Lorrain, PLS, Plateforme de Liaisons Situationnelles, pièce de théâtre contemporaine, théâtre satirique, comédie politique, intelligence artificielle, IA, pouvoir, bureaucratie, management, servitude volontaire, situationnisme, spectacle contemporain",
+      },
     ],
-    links: [{ rel: "canonical", href: "/gilberte" }],
+    links: [
+      {
+        rel: "canonical",
+        href: "https://plateforme-liaisons.fr/gilberte",
+      },
+    ],
   }),
   component: GilbertePage,
 });
+
+
 
 function GilbertePage() {
   return (
