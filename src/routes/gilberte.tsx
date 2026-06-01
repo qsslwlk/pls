@@ -157,6 +157,9 @@ function GilbertePage() {
               croit encore jouer son rôle, alors que la pièce est déjà en train de se jouer sans
               lui.
             </p>
+            <p>
+              Gilberte s'inscrit dans une tradition comique française qui prend le pouvoir au sérieux en refusant de le prendre au tragique : l'Ubu de Jarry pour la figure grotesque du chef, le Courteline des bureaux pour l'absurde administratif, l'Ionesco du langage devenu rituel vide, le théâtre de Vinaver pour la parole d'entreprise qui tourne à vide. À cet héritage, la pièce ajoute une opération situationniste : il ne s'agit pas de produire un spectacle, mais de construire la situation d'un spectateur qui voit se jouer sa propre vie et se retrouve, le rire retombé, face à sa part de responsabilité.
+            </p>
           </SectionHeading>
 
           {/* Univers visuel */}
@@ -236,7 +239,7 @@ function GilbertePage() {
             </ul>
           </SectionHeading>
 
-          <SectionHeading number="08" label="Contact diffusion" title="Programmer Gilberte.">
+          <SectionHeading number="07" label="Contact diffusion" title="Programmer Gilberte.">
             <p>
               Pour toute demande de diffusion, accueil en résidence ou coproduction, contactez la
               diffusion de PLS.

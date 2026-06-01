@@ -39,7 +39,7 @@ const blocks = [
   {
     n: "03",
     label: "Accueil en résidence",
-    title: "Mettre un plateau à disposition.",
+    title: "Mettre un plateau à disposition",
     body: "PLS recherche des temps de résidence pour finaliser le texte, travailler la scénographie, éprouver la présence d’une intelligence artificielle en scène et construire les interactions avec les comédiens et le public.",
   },
 ];

@@ -11,9 +11,9 @@ export const news: NewsItem[] = [
     slug: "lecture-splash-de-mots",
     date: "2026-03-18",
     type: "Lecture",
-    title: "Gilberte distingee au Festival Splash de Mots 2026",
+    title: "Gilberte distinguée au Festival Splash de Mots 2026",
     excerpt:
-      "La lecture de Gilberte a reçu la distinction Meilleure Lecture lors de l'edition 2026 du festival.",
+      "La lecture de Gilberte a reçu la distinction Meilleure Lecture lors de l'édition 2026 du festival.",
   } //,
   //{
    // slug: "ouverture-preproduction",
