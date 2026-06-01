@@ -26,15 +26,15 @@ function CompagniePage() {
       <PageHeader
         eyebrow="Dossier · La compagnie"
         title="Une plateforme pour des liaisons situationnelles."
-        intro="PLS — Plateforme de Liaisons Situationnelles est une association de production théâtrale créée pour porter des projets scéniques contemporains. Elle accompagne notamment le développement de Gilberte, pièce d'Évariste Lorrain."
+        intro="PLS est une association de production théâtrale fondée en 2025. Elle construit des situations scéniques révélant la part fictionnelle du quotidien contemporain."
       />
 
       <Container>
         <SectionHeading number="01" label="Mission" title="Faire théâtre du présent.">
           <p>
-            Créer des spectacles contemporains qui interrogent les transformations du travail, du
-            langage, de la technologie et du pouvoir. Le théâtre comme espace d'analyse, d'ironie et
-            de précision.
+            Génération de situations scéniques contemporaines à partir d'enquêtes du vécu
+            contemporains, de recherches documentaires ethnographiques. Une attention particulière aux formes 
+            de langage et d'organisation du travail structurant le vécu contemporain.
           </p>
         </SectionHeading>
 
