@@ -34,7 +34,7 @@ const blocks = [
     n: "02",
     label: "Mécénat",
     title: "Soutenir une fiction déjà réelle",
-    body: "Entreprises, fondations et donateurs privés peuvent accompagner le développement du projet. Conventions de mécénat à élaborer au cas par cas. Reçu fiscal — TODO (sous réserve d'éligibilité).",
+    body: "Entreprises, fondations et donateurs privés peuvent soutenir le développement du projet. Gilberte interroge des questions qui traversent directement les organisations contemporaines : automatisation des décisions, responsabilité diluée, pouvoir des interfaces, croyance dans les modèles.", 
   },
   {
     n: "03",
@@ -51,9 +51,7 @@ function PartenariatsPage() {
         eyebrow="Dossier · Partenariats"
         title="Entrer dans la situation"
         intro="Gilberte est en pré-production.
-        PLS ouvre dès maintenant la conversation avec les lieux, institutions, entreprises, fondations et partenaires susceptibles d’accompagner sa première création.
-        Soutenir Gilberte, ce n’est pas seulement contribuer à la production d’un spectacle.
-        C’est participer à la construction d’une situation scénique contemporaine : un dispositif où se rejouent le langage managérial, la délégation aux machines, la communication politique, les procédures et les formes ordinaires d’obéissance."
+        PLS recherche des temps de résidence pour finaliser le texte, travailler la scénographie, éprouver la présence d’une intelligence artificielle en scène et construire les interactions avec le public."
       />
 
       <Container className="pb-8">
@@ -81,9 +79,6 @@ function PartenariatsPage() {
             <p className="label-admin text-muted-foreground">Contact dédié</p>
             <p className="mt-3 font-display text-3xl md:text-4xl leading-tight">
               Engager une discussion.
-            </p>
-            <p>
-              Vous représentez un lieu, une institution, une entreprise, une fondation ou une structure intéressée par le projet ?
             </p>
             <p>
               Écrivez-nous pour recevoir le dossier de production, organiser une rencontre ou imaginer une forme de partenariat adaptée.
