@@ -25,8 +25,11 @@ function CompagniePage() {
     <PageShell>
       <PageHeader
         eyebrow="Dossier · La compagnie"
-        title="Une plateforme pour des liaisons situationnelles."
-        intro="PLS est une association de production théâtrale fondée en 2025. Elle construit des situations scéniques révélant la part fictionnelle du quotidien contemporain."
+        title="Une plateforme pour des liaisons situationnelles"
+        intro="PLS construit des situations scéniques pour révéler le spectacle ordinaire de la vie contemporaine.
+        La Compagnie travaille à partir des formes mêmes du quotidien afin d’en faire apparaître la dimension fictionnelle et coercitive.
+        Ses créations placent le spectateur face aux rôles qu’il connaît déjà, ceux qu’il joue au travail, dans l’espace public ou devant les images.
+        "
       />
 
       <Container>
