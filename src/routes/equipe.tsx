@@ -22,11 +22,10 @@ const members = [
   {
     name: "Évariste Lorrain",
     role: "Auteur",
-    bio: "Auteur de Gilberte. Notice à compléter — TODO.",
+    bio: "Évariste Lorrain est l'auteur de Gilberte, sa première pièce. Il écrit à partir de ce qu'il connaît de l'intérieur : il travaille dans la science des données et la publicité numérique, au contact quotidien des modèles, des tableaux de bord et de la langue d'entreprise que la pièce met en scène. Gilberte naît de cette position — non pas une dénonciation venue du dehors, mais le regard d'un témoin qui fabrique lui-même une part de ce qu'il observe.",
   },
-  { name: "TODO", role: "Mise en scène", bio: "Notice à compléter — TODO." },
-  { name: "TODO", role: "Direction artistique", bio: "Notice à compléter — TODO." },
-  { name: "TODO", role: "Production / Diffusion", bio: "Notice à compléter — TODO." },
+  { name: "Évariste Lorrain & Mely Bourjac", role: "Mise en scène", bio: "La mise en scène de Gilberte est portée par Évariste Lorrain, auteur de la pièce, et Mely Bourjac, cinéaste et productrice. Ce binôme croise l'écriture et l'image : un plateau saturé d'écrans, de caméras et d'une intelligence artificielle qui joue en direct, où la frontière entre la scène et sa captation fait partie du sujet. Mely Bourjac a réuni la distribution et accompagne la création depuis ses premières lectures." },
+  { name: "Production / Diffusion — PLS", role: "Production / Diffusion", bio: "La production de Gilberte est assurée par PLS (Plateforme de Liaisons Situationnelles, association loi 1901). La diffusion est gérée en interne pendant la pré-production." },
 ];
 
 function EquipePage() {
