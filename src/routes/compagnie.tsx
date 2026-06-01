@@ -53,16 +53,16 @@ function CompagniePage() {
             </p>
           </SectionHeading>
 
-          <SectionHeading number="04" label="Valeurs" title="Valeurs.">
+          <SectionHeading number="04" label="Protocole" title="Protocole">
             <ul className="rule-t">
               {[
-                ["Précision", "Travailler le texte, le geste et la scénographie avec exigence."],
-                ["Indépendance", "Refuser les codes attendus du théâtre événementiel."],
+                ["Situation", "Construction active de situations de réhabilitation du sujet contemporain."],
+                ["Enquête", "Observer les règles du jeu du spectacle contemporain."],
                 [
-                  "Hospitalité",
-                  "Construire les œuvres en dialogue avec interprètes, lieux et partenaires.",
+                  "Rejeu",
+                  "Rejouer le quotidien pour en faire apparaître la trame.",
                 ],
-                ["Lisibilité", "Faire des spectacles qui s'adressent réellement aux publics."],
+                ["Adresse", "La situation construite s’adresse au quotidien commun. Elle en révèle les règles et ouvre la possibilité d’un autre jeu."],
               ].map(([title, body]) => (
                 <li key={title} className="rule-b py-6 grid md:grid-cols-12 gap-4">
                   <span className="md:col-span-3 label-admin text-accent">{title}</span>
