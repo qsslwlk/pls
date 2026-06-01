@@ -233,9 +233,10 @@ function GilbertePage() {
                   Résidences · Recherches scénographiques
                 </span>
               </li>
+            </ul>
           </SectionHeading>
 
-          <SectionHeading number="07" label="Contact diffusion" title="Programmer Gilberte.">
+          <SectionHeading number="08" label="Contact diffusion" title="Programmer Gilberte.">
             <p>
               Pour toute demande de diffusion, accueil en résidence ou coproduction, contactez la
               diffusion de PLS.
