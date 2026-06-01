@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import acte1 from "@/assets/acte-1.png";
 import acte2 from "@/assets/acte-2.png";
 import acte3 from "@/assets/acte-3.png";
+import robotAspirateur from "@/assets/robot-aspirateur.jpg";
 import { PageShell, Container } from "@/components/site/PageShell";
 import { SectionHeading, SectionBody } from "@/components/site/SectionHeading";
 import { Tag } from "@/components/site/Tag";
@@ -23,8 +24,7 @@ export const Route = createFileRoute("/gilberte")({
       // Open Graph
       {
         property: "og:title",
-        content:
-          "Gilberte — pièce satirique d’Évariste Lorrain sur l’IA et le pouvoir",
+        content: "Gilberte — pièce satirique d’Évariste Lorrain sur l’IA et le pouvoir",
       },
       {
         property: "og:description",
@@ -46,8 +46,7 @@ export const Route = createFileRoute("/gilberte")({
       { name: "twitter:card", content: "summary_large_image" },
       {
         name: "twitter:title",
-        content:
-          "Gilberte — pièce satirique sur l’intelligence artificielle et le pouvoir",
+        content: "Gilberte — pièce satirique sur l’intelligence artificielle et le pouvoir",
       },
       {
         name: "twitter:description",
@@ -76,7 +75,10 @@ export const Route = createFileRoute("/gilberte")({
   component: GilbertePage,
 });
 
-
+const distributionCast = Array.from({ length: 6 }, (_, i) => ({
+  id: i + 1,
+  name: `Nom Prénom ${i + 1}`,
+}));
 
 function GilbertePage() {
   return (
@@ -108,25 +110,30 @@ function GilbertePage() {
         <Container className="pt-20">
           <SectionHeading number="01" label="Pitch" title="Situation initiale">
             <p>
-            Dans une start-up chargée d’entraîner une IA pour accompagner une candidate à l’élection présidentielle, 
-            une erreur apparemment minuscule contamine bientôt tout le système : 
-            programme politique, discours publics, décisions d’État, vidéos virales, panique médiatique.
+              Dans une start-up chargée d’entraîner une IA pour accompagner une candidate à
+              l’élection présidentielle, une erreur apparemment minuscule contamine bientôt tout le
+              système : programme politique, discours publics, décisions d’État, vidéos virales,
+              panique médiatique.
             </p>
           </SectionHeading>
 
           <SectionHeading number="02" label="Synopsis" title="Synopsis.">
             <p>
-            Dans une start-up spécialisée en intelligence artificielle, Gérard arrive pour son premier jour. 
-            Recruté sur un malentendu, il participe malgré lui à l’entraînement de Gilberte, une IA conçue pour accompagner 
-            la campagne d’une ministre ambitieuse. Une erreur minuscule, des données biaisées et une démonstration improvisée suffisent à faire basculer la machine.
+              Dans une start-up spécialisée en intelligence artificielle, Gérard arrive pour son
+              premier jour. Recruté sur un malentendu, il participe malgré lui à l’entraînement de
+              Gilberte, une IA conçue pour accompagner la campagne d’une ministre ambitieuse. Une
+              erreur minuscule, des données biaisées et une démonstration improvisée suffisent à
+              faire basculer la machine.
             </p>
             <p className="mt-4">
-            Quelques mois plus tard, la ministre est Présidente. Gilberte rédige les lois, prépare les discours, produit les vidéos, organise la parole publique. 
-            Chacun délègue un peu : par confort, par fatigue, par intérêt, par peur de perdre sa place.
+              Quelques mois plus tard, la ministre est Présidente. Gilberte rédige les lois, prépare
+              les discours, produit les vidéos, organise la parole publique. Chacun délègue un peu :
+              par confort, par fatigue, par intérêt, par peur de perdre sa place.
             </p>
             <p className="mt-4">
-            Lorsqu’une réforme nutritionnelle absurde déclenche une crise nationale, il devient presque impossible de savoir qui a décidé quoi. 
-            Gilberte suit la trajectoire d’une décision sans auteur : personne ne l’assume, mais chacun l’a rendue possible.
+              Lorsqu’une réforme nutritionnelle absurde déclenche une crise nationale, il devient
+              presque impossible de savoir qui a décidé quoi. Gilberte suit la trajectoire d’une
+              décision sans auteur : personne ne l’assume, mais chacun l’a rendue possible.
             </p>
           </SectionHeading>
 
@@ -136,12 +143,16 @@ function GilbertePage() {
             title="L'humour comme outil critique."
           >
             <p>
-            La pièce naît de cette contradiction : un univers qui se veut rationnel, efficace et innovant, mais qui produit sans cesse du vide, de la croyance et de l’obéissance.
-            Gilberte ne cherche pas à parler de l’intelligence artificielle, mais à construire une situation où le public voit comment une décision circule, se délègue, se déforme, puis finit par gouverner tout le monde sans être assumée par personne.
-            L’IA n’est donc pas un simple sujet : elle intervient réellement au plateau, comme personnage, partenaire de jeu et dispositif d’instabilité.
-            Gilberte est une comédie sur le moment où chacun croit encore jouer son rôle, alors que la pièce est déjà en train de se jouer sans lui.
+              La pièce naît de cette contradiction : un univers qui se veut rationnel, efficace et
+              innovant, mais qui produit sans cesse du vide, de la croyance et de l’obéissance.
+              Gilberte ne cherche pas à parler de l’intelligence artificielle, mais à construire une
+              situation où le public voit comment une décision circule, se délègue, se déforme, puis
+              finit par gouverner tout le monde sans être assumée par personne. L’IA n’est donc pas
+              un simple sujet : elle intervient réellement au plateau, comme personnage, partenaire
+              de jeu et dispositif d’instabilité. Gilberte est une comédie sur le moment où chacun
+              croit encore jouer son rôle, alors que la pièce est déjà en train de se jouer sans
+              lui.
             </p>
-
           </SectionHeading>
 
           {/* Univers visuel */}
@@ -190,10 +201,21 @@ function GilbertePage() {
           </div>
 
           <SectionHeading number="05" label="Distribution" title="Distribution.">
-            <p className="text-muted-foreground">
-              Distribution en cours de finalisation — TODO. Mise à jour progressive au fil de la
-              pré-production.
-            </p>
+            <ul className="mt-2 grid gap-4 md:grid-cols-2">
+              {distributionCast.map((person) => (
+                <li
+                  key={person.id}
+                  className="flex items-center gap-4 border border-foreground/20 bg-foreground/[0.02] px-4 py-3"
+                >
+                  <img
+                    src={robotAspirateur}
+                    alt="Portrait robot aspirateur"
+                    className="size-16 shrink-0 rounded-full object-cover border border-foreground/20"
+                  />
+                  <span className="font-display text-2xl leading-tight">{person.name}</span>
+                </li>
+              ))}
+            </ul>
           </SectionHeading>
 
           <SectionHeading number="06" label="Calendrier" title="Calendrier de création.">
