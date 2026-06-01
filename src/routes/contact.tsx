@@ -50,26 +50,10 @@ function ContactPage() {
               {site.email}
             </a>
           </div>
-          <div>
-            <p className="label-admin text-muted-foreground">Diffusion</p>
-            <a
-              href={`mailto:${site.diffusionEmail}`}
-              className="mt-2 block font-display text-2xl hover:text-accent transition-colors"
-            >
-              {site.diffusionEmail}
-            </a>
-          </div>
-          <div>
-            <p className="label-admin text-muted-foreground">Réseaux</p>
-            <p className="mt-2 text-sm text-muted-foreground">
-              Instagram — TODO
-              <br />
-              LinkedIn — TODO
-            </p>
-          </div>
           <div className="rule-t pt-6">
             <p className="label-admin text-muted-foreground">Siège</p>
-            <p className="mt-2 text-sm text-muted-foreground">Adresse — TODO</p>
+            <p className="mt-2 text-sm text-muted-foreground">Plateforme de Liaisons Situationnelles</p>
+            <p className="mt-2 text-sm text-muted-foreground">17 rue Championnet, 75018 Paris</p>
           </div>
         </aside>
 
