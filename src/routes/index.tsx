@@ -111,7 +111,7 @@ function Home() {
       <section className="rule-t">
         <Container className="py-20 md:py-28 grid md:grid-cols-12 gap-10">
           <div className="md:col-span-5">
-            <p className="label-admin text-muted-foreground">Univers · 02</p>
+            <p className="label-admin text-muted-foreground">Univers de la pièce · 02</p>
             <h2 className="mt-6 font-display text-4xl md:text-5xl leading-[1.05] tracking-tight">
             Un monde trop proche du nôtre pour être inventé
             </h2>

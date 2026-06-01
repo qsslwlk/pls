@@ -41,6 +41,7 @@ function CompagniePage() {
           </p>
         </SectionHeading>
 
+        <!--
         <SectionHeading
           number="02"
           label="Positionnement"
@@ -55,10 +56,11 @@ function CompagniePage() {
             <li>· Réflexion sur l'intelligence artificielle</li>
           </ul>
         </SectionHeading>
+        -->
 
         <SectionHeading
-          number="03"
-          label="Vision artistique"
+          number="02"
+          label="Vision"
           title="L'institution comme scénographie."
         >
           <p>
