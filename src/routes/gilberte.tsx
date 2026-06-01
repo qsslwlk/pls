@@ -204,7 +204,7 @@ function GilbertePage() {
             ))}
           </div>
 
-          <SectionHeading number="05" label="Distribution" title="Distribution.">
+          <SectionHeading number="05" label="Distribution" title="Distribution">
             <ul className="mt-2 grid gap-4 md:grid-cols-2">
               {distributionCast.map((person) => (
                 <li key={person.id} className="flex items-center gap-5 px-1 py-2">
@@ -219,7 +219,7 @@ function GilbertePage() {
             </ul>
           </SectionHeading>
 
-          <SectionHeading number="06" label="Calendrier" title="Calendrier de création.">
+          <SectionHeading number="06" label="Calendrier" title="Calendrier de création">
             <ul className="rule-t mt-2">
               <li className="rule-b py-5 grid md:grid-cols-12 gap-3">
                 <span className="md:col-span-3 label-admin text-accent">2026 · en cours</span>
@@ -230,28 +230,12 @@ function GilbertePage() {
               <li className="rule-b py-5 grid md:grid-cols-12 gap-3 text-muted-foreground">
                 <span className="md:col-span-3 label-admin">À venir</span>
                 <span className="md:col-span-9">
-                  Résidences · Recherches scénographiques — TODO
+                  Résidences · Recherches scénographiques
                 </span>
               </li>
-              <li className="rule-b py-5 grid md:grid-cols-12 gap-3 text-muted-foreground">
-                <span className="md:col-span-3 label-admin">À venir</span>
-                <span className="md:col-span-9">Création · Première — TODO</span>
-              </li>
-            </ul>
           </SectionHeading>
 
-          <SectionHeading number="07" label="Distinctions" title="Distinctions.">
-            <ul className="rule-t mt-2">
-              <li className="rule-b py-5 grid md:grid-cols-12 gap-3 items-baseline">
-                <span className="md:col-span-3 label-admin text-accent">2026</span>
-                <span className="md:col-span-9 font-display text-2xl leading-tight">
-                  Meilleure Lecture — Festival Splash de Mots
-                </span>
-              </li>
-            </ul>
-          </SectionHeading>
-
-          <SectionHeading number="08" label="Contact diffusion" title="Programmer Gilberte.">
+          <SectionHeading number="07" label="Contact diffusion" title="Programmer Gilberte.">
             <p>
               Pour toute demande de diffusion, accueil en résidence ou coproduction, contactez la
               diffusion de PLS.
