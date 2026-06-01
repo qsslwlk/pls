@@ -33,24 +33,22 @@ function CompagniePage() {
       />
 
       <Container>
-        <SectionHeading number="01" label="Mission" title="Faire théâtre du présent.">
+        <SectionHeading number="01" label="Mission" title="Faire théâtre du présent">
           <p>
             Génération de situations scéniques contemporaines à partir d'enquêtes du vécu
-            contemporains et de recherches documentaires ethnographiques. Une attention particulière sera portée aux formes 
-            de langage et d'organisation du travail structurant le vécu contemporain.
+            contemporains et de recherches documentaires ethnographiques.
           </p>
         </SectionHeading>
 
         <SectionHeading
           number="02"
           label="Vision"
-          title="L'institution comme scénographie."
+          title="L'institution comme scénographie"
         >
           <p>
-            Le travail de PLS observe les espaces où l'humain délègue : aux outils, aux procédures,
-            aux modèles. La scène devient un lieu d'enquête sur la manière dont les décisions se
-            forment, se dissolvent et se rejouent. L'humour, lorsqu'il intervient, est compris comme
-            un outil critique.
+          PLS observe les lieux où le pouvoir ne se donne presque jamais comme pouvoir : une réunion, une formation, une procédure, un écran, un tableau de bord.
+          Ces formes organisent les gestes, distribuent la parole, prescrivent les rôles. Elles font décor, mais un décor qui agit : il cadre les décisions, autorise les renoncements, transforme l’obéissance en participation.
+          La scène permet d’en rejouer la logique jusqu’au point où l’institution cesse d’être naturelle pour redevenir une fiction.
           </p>
         </SectionHeading>
 
