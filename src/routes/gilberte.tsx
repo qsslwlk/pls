@@ -75,10 +75,14 @@ export const Route = createFileRoute("/gilberte")({
   component: GilbertePage,
 });
 
-const distributionCast = Array.from({ length: 6 }, (_, i) => ({
-  id: i + 1,
-  name: `Nom Prénom ${i + 1}`,
-}));
+const distributionCast = [
+  { id: 1, name: "Ludovic Pinette" },
+  { id: 2, name: "Emma Bazin" },
+  { id: 3, name: "Saad Finge" },
+  { id: 4, name: "Thibault Truffert" },
+  { id: 5, name: "Nom à confirmer" },
+  { id: 6, name: "Nom à confirmer" },
+];
 
 function GilbertePage() {
   return (
