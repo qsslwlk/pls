@@ -106,27 +106,27 @@ function GilbertePage() {
         </section>
 
         <Container className="pt-20">
-          <SectionHeading number="01" label="Pitch" title="Le programme parfait.">
+          <SectionHeading number="01" label="Pitch" title="Situation initiale">
             <p>
-              Une intelligence artificielle conçue pour écrire le programme électoral parfait
-              propulse une ministre médiocre à la présidence de la République. Lorsque l'IA commence
-              à gouverner à sa place, le pays bascule progressivement dans l'absurde.
+            Dans une start-up chargée d’entraîner une IA pour accompagner une candidate à l’élection présidentielle, 
+            une erreur apparemment minuscule contamine bientôt tout le système : 
+            programme politique, discours publics, décisions d’État, vidéos virales, panique médiatique.
             </p>
           </SectionHeading>
 
           <SectionHeading number="02" label="Synopsis" title="Synopsis.">
             <p>
-              Dans une start-up spécialisée en intelligence artificielle, un employé sans
-              qualification particulière participe accidentellement à la création d'une IA politique
-              nommée Gilberte. Conçue pour optimiser les programmes électoraux, l'IA devient
-              rapidement indispensable à une ministre ambitieuse mais dépassée.
+            Dans une start-up spécialisée en intelligence artificielle, Gérard arrive pour son premier jour. 
+            Recruté sur un malentendu, il participe malgré lui à l’entraînement de Gilberte, une IA conçue pour accompagner 
+            la campagne d’une ministre ambitieuse. Une erreur minuscule, des données biaisées et une démonstration improvisée suffisent à faire basculer la machine.
             </p>
             <p className="mt-4">
-              À mesure que Gilberte prend en charge les décisions publiques, la frontière entre
-              assistance et gouvernement disparaît. La pièce suit simultanément l'ascension
-              politique de la Présidente, la dérive technocratique du pouvoir, la trajectoire de
-              Gérard — employé ordinaire dépassé par les événements — et l'effacement progressif des
-              médiations humaines.
+            Quelques mois plus tard, la ministre est Présidente. Gilberte rédige les lois, prépare les discours, produit les vidéos, organise la parole publique. 
+            Chacun délègue un peu : par confort, par fatigue, par intérêt, par peur de perdre sa place.
+            </p>
+            <p className="mt-4">
+            Lorsqu’une réforme nutritionnelle absurde déclenche une crise nationale, il devient presque impossible de savoir qui a décidé quoi. 
+            Gilberte suit la trajectoire d’une décision sans auteur : personne ne l’assume, mais chacun l’a rendue possible.
             </p>
           </SectionHeading>
 
@@ -136,13 +136,12 @@ function GilbertePage() {
             title="L'humour comme outil critique."
           >
             <p>
-              Gilberte se situe à la croisée de la satire politique, de la comédie sociale, du
-              théâtre contemporain et de la critique du solutionnisme technologique. Le rire y est
-              un outil d'analyse, non un effet décoratif.
+            La pièce naît de cette contradiction : un univers qui se veut rationnel, efficace et innovant, mais qui produit sans cesse du vide, de la croyance et de l’obéissance.
+            Gilberte ne cherche pas à parler de l’intelligence artificielle, mais à construire une situation où le public voit comment une décision circule, se délègue, se déforme, puis finit par gouverner tout le monde sans être assumée par personne.
+            L’IA n’est donc pas un simple sujet : elle intervient réellement au plateau, comme personnage, partenaire de jeu et dispositif d’instabilité.
+            Gilberte est une comédie sur le moment où chacun croit encore jouer son rôle, alors que la pièce est déjà en train de se jouer sans lui.
             </p>
-            <p className="mt-4 text-muted-foreground italic">
-              Note d'intention complète à paraître — TODO.
-            </p>
+
           </SectionHeading>
 
           {/* Univers visuel */}
