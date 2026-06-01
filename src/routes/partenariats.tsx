@@ -50,8 +50,7 @@ function PartenariatsPage() {
       <PageHeader
         eyebrow="Dossier · Partenariats"
         title="S'associer à la création de Gilberte"
-        intro="Gilberte est en pré-production.
-        PLS recherche des temps de résidence pour finaliser le texte, travailler la scénographie, éprouver la présence d’une intelligence artificielle en scène et construire les interactions avec le public."
+        intro="PLS recherche des temps de résidence pour finaliser le texte, travailler la scénographie, éprouver la présence d’une intelligence artificielle en scène et construire les interactions avec le public."
       />
 
       <Container className="pb-8">
