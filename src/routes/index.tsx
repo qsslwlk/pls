@@ -58,7 +58,7 @@ function Home() {
       </section>
 
       {/* Gilberte feature */}
-      <section className="rule-t mt-0">
+      <section className="rule-t rule-transparent mt-0">
         <Container className="grid md:grid-cols-12 gap-8 md:gap-12 py-20 md:py-28">
           <div className="md:col-span-5 flex flex-col">
             <p className="label-admin text-accent">Création en cours · 01</p>
@@ -108,7 +108,7 @@ function Home() {
       </section>
 
       {/* Second image — atmosphere */}
-      <section className="rule-t">
+      <section className="rule-t rule-transparent">
         <Container className="py-20 md:py-28 grid md:grid-cols-12 gap-10">
           <div className="md:col-span-5">
             <p className="label-admin text-muted-foreground">Univers de la pièce · 02</p>
@@ -138,7 +138,7 @@ function Home() {
       </section>
 
       {/* News */}
-      <section className="rule-t">
+      <section className="rule-t rule-transparent">
         <Container className="py-20 md:py-24">
           <div className="flex items-end justify-between gap-6 mb-12">
             <div>
