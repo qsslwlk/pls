@@ -203,14 +203,11 @@ function GilbertePage() {
           <SectionHeading number="05" label="Distribution" title="Distribution.">
             <ul className="mt-2 grid gap-4 md:grid-cols-2">
               {distributionCast.map((person) => (
-                <li
-                  key={person.id}
-                  className="flex items-center gap-4 border border-foreground/20 bg-foreground/[0.02] px-4 py-3"
-                >
+                <li key={person.id} className="flex items-center gap-5 px-1 py-2">
                   <img
                     src={robotAspirateur}
                     alt="Portrait robot aspirateur"
-                    className="size-16 shrink-0 rounded-full object-cover border border-foreground/20"
+                    className="h-24 w-24 shrink-0 rounded-xl object-cover"
                   />
                   <span className="font-display text-2xl leading-tight">{person.name}</span>
                 </li>
