@@ -121,7 +121,7 @@ function GilbertePage() {
             </p>
           </SectionHeading>
 
-          <SectionHeading number="02" label="Synopsis" title="Synopsis.">
+          <SectionHeading number="02" label="Synopsis" title="Synopsis">
             <p>
               Dans une start-up spécialisée en intelligence artificielle, Gérard arrive pour son
               premier jour. Recruté sur un malentendu, il participe malgré lui à l’entraînement de
@@ -144,7 +144,7 @@ function GilbertePage() {
           <SectionHeading
             number="03"
             label="Note d'intention"
-            title="L'humour comme outil critique."
+            title="L'humour comme outil critique"
           >
             <p>
               La pièce naît de cette contradiction : un univers qui se veut rationnel, efficace et
@@ -157,6 +157,7 @@ function GilbertePage() {
               croit encore jouer son rôle, alors que la pièce est déjà en train de se jouer sans
               lui.
             </p>
+            <br />
             <p>
               Gilberte s'inscrit dans une tradition comique française qui prend le pouvoir au sérieux en refusant de le prendre au tragique : l'Ubu de Jarry pour la figure grotesque du chef, le Courteline des bureaux pour l'absurde administratif, l'Ionesco du langage devenu rituel vide, le théâtre de Vinaver pour la parole d'entreprise qui tourne à vide. À cet héritage, la pièce ajoute une opération situationniste : il ne s'agit pas de produire un spectacle, mais de construire la situation d'un spectateur qui voit se jouer sa propre vie et se retrouve, le rire retombé, face à sa part de responsabilité.
             </p>
