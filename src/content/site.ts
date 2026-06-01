@@ -1,6 +1,6 @@
 export const site = {
   name: "PLS — Plateforme de Liaisons Situationnelles",
-  shortDescription: "Compagnie de creation theatrale contemporaine.",
+  shortDescription: "Construction de situations scéniques révélant la part fictionnelle du quotidien contemporain.",
   email: "contact@plateforme-liaisons.fr",
   //diffusionEmail: "diffusion@plateforme-liaisons.fr",
 };

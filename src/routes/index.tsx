@@ -51,7 +51,7 @@ function Home() {
               Plateforme de Liaisons Situationnelles
             </h1>
             <p className="mt-8 max-w-xl text-base md:text-lg text-foreground/80 leading-relaxed">
-              Compagnie de création théâtrale contemporaine.
+              Construction de situations scéniques révélant la part fictionnelle du quotidien contemporain.
             </p>
           </Container>
         </div>
